@@ -74,3 +74,7 @@ class ToDoList
 end
 
 # Create a new ToDo list
+
+list = ToDoList.new("clean and stuff")
+p list
+print_list

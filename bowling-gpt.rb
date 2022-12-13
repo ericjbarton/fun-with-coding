@@ -49,5 +49,6 @@ class BowlingScorer
   end
 end
 
-p roll(10)
-p score
+game = BowlingScorer.new()
+p game
+p calculate_score()
