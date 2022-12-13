@@ -51,4 +51,4 @@ end
 
 game = BowlingScorer.new()
 p game
-p calculate_score()
+p @score
